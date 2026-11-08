@@ -46,8 +46,8 @@ md += `## Avião — mais baratos em horário bom (saída entre 07h e 21h)\n\n${
 // ônibus
 const todosOnibus = [...opcoesOnibus].sort((a, b) => a.preco - b.preco || a.data.localeCompare(b.data));
 if (onib.length) {
-  md += `## Ônibus (Buser) — mais baratos\n\n| Preço | Data | Saída → chegada | Embarque | Classe | Duração |\n|---|---|---|---|---|---|\n`;
-  md += todosOnibus.slice(0, 12).map(o => `| **${brl2(o.preco)}** | ${dia(o.data)} | ${o.partida} → ${o.chegada}${o.chegadaDia ? ' (' + o.chegadaDia + ')' : ''} | ${o.embarque} | ${o.classe}${o.escalas !== 'Direto' ? ', ' + o.escalas : ''} | ${o.duracao} |`).join('\n') + '\n\n';
+  md += `## Ônibus (Buser) — saída 25/12 à noite (18h+) ou 26/12 de manhã (até 12h)\n\n| Preço | Data | Saída → chegada | Embarque | Classe | Duração |\n|---|---|---|---|---|---|\n`;
+  md += (todosOnibus.length ? '' : 'Nenhum horário nessa janela.\n') + todosOnibus.slice(0, 15).map(o => `| **${brl2(o.preco)}** | ${dia(o.data)} | ${o.partida} → ${o.chegada}${o.chegadaDia ? ' (' + o.chegadaDia + ')' : ''} | ${o.embarque} | ${o.classe}${o.escalas !== 'Direto' ? ', ' + o.escalas : ''} | ${o.duracao} |`).join('\n') + '\n\n';
   const falhas = onib.filter(o => !o.ok).map(o => dia(o.data));
   if (falhas.length) md += `Busca de ônibus falhou em: ${falhas.join(', ')}.\n\n`;
 }

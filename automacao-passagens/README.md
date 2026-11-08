@@ -1,6 +1,6 @@
 # Automação de passagens SP → Florianópolis, só ida, avião e ônibus (21–26/12/2026)
 
-Busca no Google Voos os voos diretos GRU/CGH → FLN em 21, 22, 23, 24 e 26/12, e os ônibus São Paulo → Florianópolis na Buser nas mesmas datas (1 adulto). Lista os mais baratos por dia e por horário.
+Busca no Google Voos os voos diretos GRU/CGH → FLN em 21, 22, 23, 24 e 26/12, e os ônibus São Paulo → Florianópolis na Buser saindo em 25/12 à noite ou 26/12 de manhã (1 adulto). Lista os mais baratos por dia e por horário.
 
 - `./rodar.sh` — faz uma coleta e gera `RELATORIO.md`
 - `buscar.js` — coleta (Playwright/Chromium); salva `dados/<data-hora>.json` e `dados/historico.json`

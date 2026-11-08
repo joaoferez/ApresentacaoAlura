@@ -7,7 +7,10 @@ const path = require('path');
 const ORIGENS = ['GRU', 'CGH'];
 const IDAS = ['2026-12-21', '2026-12-22', '2026-12-23', '2026-12-24', '2026-12-26'];
 const VOLTAS = []; // só ida
-const DATAS_ONIBUS = IDAS; // ônibus São Paulo -> Florianópolis (Buser) nas mesmas datas
+// Ônibus São Paulo -> Florianópolis (Buser): só saídas na noite de 25/12 (a partir das 18h)
+// ou na manhã de 26/12 (até 11h59, incluindo a madrugada).
+const DATAS_ONIBUS = ['2026-12-25', '2026-12-26'];
+const janelaOnibus = o => (o.data === '2026-12-25' && o.partida >= '18:00') || (o.data === '2026-12-26' && o.partida < '12:00');
 const DADOS = path.join(__dirname, 'dados');
 
 function trechos() {
@@ -116,8 +119,9 @@ async function buscarOnibus(page, data) {
       if (tent) await page.waitForTimeout(5000 * tent);
       try { lista = await buscarOnibus(page, d); } catch (e) { console.error('erro onibus', d, e.message.split('\n')[0]); }
     }
-    console.error(`ONIBUS SP->Florianópolis ${d}: ${lista ? lista.length : 0} horários, menor R$ ${lista && lista.length ? Math.min(...lista.map(o => o.preco)) : '-'}`);
-    resultado.onibus.push({ data: d, fonte: 'Buser', ok: lista !== null, opcoes: lista || [] });
+    const naJanela = (lista || []).filter(janelaOnibus);
+    console.error(`ONIBUS SP->Florianópolis busca ${d}: ${lista ? lista.length : 0} horários, ${naJanela.length} na janela, menor R$ ${naJanela.length ? Math.min(...naJanela.map(o => o.preco)) : '-'}`);
+    resultado.onibus.push({ data: d, fonte: 'Buser', ok: lista !== null, opcoes: (lista || []).filter(janelaOnibus) });
   }
   await browser.close();
   const nome = quando.slice(0, 16).replace(':', '-');
