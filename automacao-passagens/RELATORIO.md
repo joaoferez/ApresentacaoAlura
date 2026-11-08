@@ -1,6 +1,6 @@
 # Passagem só ida São Paulo → Florianópolis — 21 a 24/12/2026
 
-Coleta: 08/11/2026, 18:05:33 (horário de Brasília) · Fonte: Google Voos · 1 adulto, voo direto, tarifa econômica básica (sem bagagem despachada).
+Coleta: 08/11/2026, 18:11:08 (horário de Brasília) · Fonte: Google Voos · 1 adulto, voo direto, tarifa econômica básica (sem bagagem despachada).
 
 ## Menor preço por dia
 
@@ -45,13 +45,13 @@ Coleta: 08/11/2026, 18:05:33 (horário de Brasília) · Fonte: Google Voos · 1 
 
 | Trecho | Data | Agora | Antes |
 |---|---|---|---|
-| GRU→FLN | seg 21/12 | R$ 522 |  |
-| GRU→FLN | ter 22/12 | R$ 522 |  |
-| GRU→FLN | qua 23/12 | R$ 522 |  |
-| GRU→FLN | qui 24/12 | R$ 741 |  |
-| CGH→FLN | seg 21/12 | R$ 419 |  |
-| CGH→FLN | ter 22/12 | R$ 419 |  |
-| CGH→FLN | qua 23/12 | R$ 476 |  |
-| CGH→FLN | qui 24/12 | R$ 419 |  |
+| GRU→FLN | seg 21/12 | R$ 522 | = |
+| GRU→FLN | ter 22/12 | R$ 522 | = |
+| GRU→FLN | qua 23/12 | R$ 522 | = |
+| GRU→FLN | qui 24/12 | R$ 741 | = |
+| CGH→FLN | seg 21/12 | R$ 419 | = |
+| CGH→FLN | ter 22/12 | R$ 419 | = |
+| CGH→FLN | qua 23/12 | R$ 476 | = |
+| CGH→FLN | qui 24/12 | R$ 419 | = |
 
 Preços do Google Voos mudam o tempo todo; confirme no site da companhia antes de comprar.
