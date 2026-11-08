@@ -17,7 +17,7 @@ const linha = v => `| **${brl(v.preco)}** | ${dia(v.data)} | ${v.partida} → ${
 const cab = '| Preço | Data | Horário | Aeroporto | Companhia |\n|---|---|---|---|---|';
 const todas = idas(r);
 
-let md = `# Passagem só ida São Paulo → Florianópolis — 21 a 24/11/2026\n\n`;
+let md = `# Passagem só ida São Paulo → Florianópolis — 21 a 24/12/2026\n\n`;
 md += `Coleta: ${new Date(r.coletadoEm).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' })} (horário de Brasília) · Fonte: ${r.fonte} · 1 adulto, voo direto, tarifa econômica básica (sem bagagem despachada).\n\n`;
 
 const datas = [...new Set(r.trechos.filter(t => t.sentido === 'ida').map(t => t.data))].sort();

@@ -1,6 +1,6 @@
-# Automação de passagens SP → Florianópolis, só ida (21–24/11/2026)
+# Automação de passagens SP → Florianópolis, só ida (21–24/12/2026)
 
-Busca no Google Voos os voos diretos GRU/CGH → FLN de 21 a 24/11, 1 adulto, e lista os mais baratos por dia e por horário.
+Busca no Google Voos os voos diretos GRU/CGH → FLN de 21 a 24/12, 1 adulto, e lista os mais baratos por dia e por horário.
 
 - `./rodar.sh` — faz uma coleta e gera `RELATORIO.md`
 - `buscar.js` — coleta (Playwright/Chromium); salva `dados/<data-hora>.json` e `dados/historico.json`
