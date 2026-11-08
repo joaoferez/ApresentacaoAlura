@@ -5,8 +5,8 @@ const fs = require('fs');
 const path = require('path');
 
 const ORIGENS = ['GRU', 'CGH'];
-const IDAS = ['2026-11-21', '2026-11-22', '2026-11-23'];
-const VOLTAS = ['2026-11-22', '2026-11-23', '2026-11-24'];
+const IDAS = ['2026-11-21', '2026-11-22', '2026-11-23', '2026-11-24'];
+const VOLTAS = []; // só ida
 const DADOS = path.join(__dirname, 'dados');
 
 function trechos() {
