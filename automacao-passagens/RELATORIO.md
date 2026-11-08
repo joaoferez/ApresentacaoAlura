@@ -1,6 +1,6 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 08/11/2026, 18:43:25 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 08/11/2026, 18:50:58 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
@@ -53,10 +53,10 @@ Coleta: 08/11/2026, 18:43:25 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 247,61** | sex 25/12 | 01:31 → 15:31 (25/12) | Terminal Rodoviário do Tietê | Leito | 14h |
 | **R$ 275,98** | qua 23/12 | 21:30 → 10:25 (24/12) | Terminal Rodoviário Barra Funda | Semi-leito, 1 Escala | 12h55min |
 | **R$ 289,88** | seg 21/12 | 19:00 → 06:16 (22/12) | Terminal Rodoviário do Tietê | Leito | 11h16min |
-| **R$ 295,86** | qua 23/12 | 19:00 → 06:16 (24/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h16min |
 | **R$ 305,24** | ter 22/12 | 09:20 → 22:00 (22/12) | Terminal Rodoviário do Tietê | Convencional | 12h40min |
 | **R$ 307,03** | seg 21/12 | 01:32 → 15:32 (21/12) | Terminal Rodoviário do Tietê | Leito Individual | 14h |
 | **R$ 307,03** | sex 25/12 | 01:32 → 15:32 (25/12) | Terminal Rodoviário do Tietê | Leito Individual | 14h |
+| **R$ 310,82** | qua 23/12 | 19:00 → 06:16 (24/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h16min |
 | **R$ 318,19** | seg 21/12 | 09:20 → 22:00 (21/12) | Terminal Rodoviário do Tietê | Semi-leito | 12h40min |
 | **R$ 318,19** | seg 21/12 | 22:15 → 10:10 (22/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h55min |
 
