@@ -5,8 +5,9 @@ const fs = require('fs');
 const path = require('path');
 
 const ORIGENS = ['GRU', 'CGH'];
-const IDAS = ['2026-12-21', '2026-12-22', '2026-12-23', '2026-12-24'];
+const IDAS = ['2026-12-21', '2026-12-22', '2026-12-23', '2026-12-24', '2026-12-26'];
 const VOLTAS = []; // só ida
+const DATAS_ONIBUS = IDAS; // ônibus São Paulo -> Florianópolis (Buser) nas mesmas datas
 const DADOS = path.join(__dirname, 'dados');
 
 function trechos() {
@@ -53,6 +54,46 @@ async function buscarTrecho(page, t) {
              .filter(v => { const k = `${v.partida}|${v.preco}`; if (vistos.has(k)) return false; vistos.add(k); return true; });
 }
 
+// Ônibus na Buser. Retorna lista (pode ser vazia se não houver horários) ou lança erro se a página não carregar.
+async function buscarOnibus(page, data) {
+  await page.goto(`https://www.buser.com.br/onibus/sao-paulo-sp/florianopolis-sc?ida=${data}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
+  await page.waitForFunction(() => /horários? de ônibus encontrad|Nenhum|não encontramos/i.test(document.body.innerText), null, { timeout: 30000 });
+  await page.waitForTimeout(2500);
+  const texto = await page.evaluate(() => document.body.innerText);
+  const ini = texto.indexOf('Encontramos para você');
+  if (ini < 0) return [];
+  const fim = texto.indexOf('Encontrou o que estava procurando', ini);
+  const linhas = texto.slice(ini, fim > 0 ? fim : undefined).split('\n').map(s => s.trim()).filter(Boolean);
+  const out = []; let janela = [];
+  for (const l of linhas) {
+    const m = l.match(/^R\$\s?([\d.]+,\d{2})$/); // preço à vista (ignora "3x R$ ...")
+    if (!m) { janela.push(l); continue; }
+    const horas = janela.filter(x => /^\d{2}:\d{2}$/.test(x));
+    if (horas.length >= 2) {
+      const iCh = janela.lastIndexOf(horas[horas.length - 1]);
+      const iPa = janela.lastIndexOf(horas[horas.length - 2]);
+      const datas = janela.slice(iPa).filter(x => /^\d{2}\/\d{2}$/.test(x));
+      const pIdx = janela.indexOf('Poltrona');
+      // data real de saída (a Buser mistura "horários após meia-noite" do dia seguinte)
+      const dataSaida = datas[0] ? `${data.slice(0, 4)}-${datas[0].slice(3, 5)}-${datas[0].slice(0, 2)}` : data;
+      let chegadaDia = datas[1] || '';
+      if (!chegadaDia) { const dd = new Date(dataSaida + 'T12:00:00'); if (janela[iCh] < janela[iPa]) dd.setDate(dd.getDate() + 1); chegadaDia = `${String(dd.getDate()).padStart(2, '0')}/${String(dd.getMonth() + 1).padStart(2, '0')}`; }
+      out.push({
+        data: dataSaida, buscaData: data, partida: janela[iPa], chegada: janela[iCh],
+        chegadaDia,
+        embarque: janela.slice(iPa, iCh).find(x => /Terminal|Rodovi|Barra Funda|Tietê|Jabaquara/i.test(x)) || '',
+        duracao: janela.find(x => /^\d+h(\d+min)?$/.test(x)) || '',
+        classe: pIdx >= 0 ? (janela[pIdx + 1] || '') : '',
+        escalas: janela.some(x => /Escala/i.test(x)) ? (janela.find(x => /Escala/i.test(x)) || '').trim() : 'Direto',
+        preco: parseFloat(m[1].replace(/\./g, '').replace(',', '.')),
+      });
+    }
+    janela = [];
+  }
+  const vistos = new Set();
+  return out.filter(o => { const k = `${o.data}|${o.partida}|${o.embarque}|${o.preco}`; if (vistos.has(k)) return false; vistos.add(k); return true; });
+}
+
 (async () => {
   fs.mkdirSync(DADOS, { recursive: true });
   const browser = await chromium.launch();
@@ -68,6 +109,16 @@ async function buscarTrecho(page, t) {
     console.error(`${t.de}->${t.para} ${t.data}: ${voos.length} voos, menor R$ ${voos.length ? Math.min(...voos.map(v => v.preco)) : '-'}`);
     resultado.trechos.push({ ...t, voos });
   }
+  resultado.onibus = [];
+  for (const d of DATAS_ONIBUS) {
+    let lista = null;
+    for (let tent = 0; tent < 3 && lista === null; tent++) {
+      if (tent) await page.waitForTimeout(5000 * tent);
+      try { lista = await buscarOnibus(page, d); } catch (e) { console.error('erro onibus', d, e.message.split('\n')[0]); }
+    }
+    console.error(`ONIBUS SP->Florianópolis ${d}: ${lista ? lista.length : 0} horários, menor R$ ${lista && lista.length ? Math.min(...lista.map(o => o.preco)) : '-'}`);
+    resultado.onibus.push({ data: d, fonte: 'Buser', ok: lista !== null, opcoes: lista || [] });
+  }
   await browser.close();
   const nome = quando.slice(0, 16).replace(':', '-');
   fs.writeFileSync(path.join(DADOS, `${nome}.json`), JSON.stringify(resultado, null, 1));
@@ -75,6 +126,7 @@ async function buscarTrecho(page, t) {
   const hist = fs.existsSync(histPath) ? JSON.parse(fs.readFileSync(histPath)) : [];
   const resumo = { coletadoEm: quando, menores: {} };
   for (const tr of resultado.trechos) if (tr.voos.length) resumo.menores[`${tr.de}-${tr.para}-${tr.data}`] = Math.min(...tr.voos.map(v => v.preco));
+  for (const o of resultado.onibus) if (o.opcoes.length) resumo.menores[`ONIBUS-${o.data}`] = Math.min(...o.opcoes.map(x => x.preco));
   hist.push(resumo);
   fs.writeFileSync(histPath, JSON.stringify(hist, null, 1));
   console.log(path.join(DADOS, `${nome}.json`));

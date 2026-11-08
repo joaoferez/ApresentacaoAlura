@@ -17,22 +17,40 @@ const linha = v => `| **${brl(v.preco)}** | ${dia(v.data)} | ${v.partida} → ${
 const cab = '| Preço | Data | Horário | Aeroporto | Companhia |\n|---|---|---|---|---|';
 const todas = idas(r);
 
-let md = `# Passagem só ida São Paulo → Florianópolis — 21 a 24/12/2026\n\n`;
-md += `Coleta: ${new Date(r.coletadoEm).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' })} (horário de Brasília) · Fonte: ${r.fonte} · 1 adulto, voo direto, tarifa econômica básica (sem bagagem despachada).\n\n`;
+let md = `# Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026\n\n`;
+md += `Coleta: ${new Date(r.coletadoEm).toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' })} (horário de Brasília) · Avião: ${r.fonte}, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.\n\n`;
 
-const datas = [...new Set(r.trechos.filter(t => t.sentido === 'ida').map(t => t.data))].sort();
+const datas = [...new Set([...r.trechos.filter(t => t.sentido === 'ida').map(t => t.data), ...(r.onibus || []).flatMap(o => o.opcoes.map(x => x.data))])].sort();
 const origens = [...new Set(r.trechos.filter(t => t.sentido === 'ida').map(t => t.de))];
-md += `## Menor preço por dia\n\n| Data | ${origens.join(' | ')} |\n|---|${origens.map(() => '---').join('|')}|\n`;
+const onib = r.onibus || [];
+const brl2 = n => 'R$ ' + n.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const opcoesOnibus = (() => { const v = new Set(); return onib.flatMap(o => o.opcoes).filter(o => { const k = `${o.data}|${o.partida}|${o.embarque}|${o.preco}`; if (v.has(k)) return false; v.add(k); return true; }); })();
+const colOnibus = d => {
+  const doDia = opcoesOnibus.filter(o => o.data === d).sort((a, b) => a.preco - b.preco);
+  if (doDia.length) return `${brl2(doDia[0].preco)} (${doDia[0].partida})`;
+  const busca = onib.find(x => x.data === d);
+  return busca && !busca.ok ? 'falhou' : busca ? 'sem horários' : '—';
+};
+md += `## Menor preço por dia\n\n| Data | Avião ${origens.join(' | Avião ')} | Ônibus |\n|---|${origens.map(() => '---').join('|')}|---|\n`;
 for (const d of datas) {
   md += `| ${dia(d)} | ` + origens.map(o => {
     const vs = todas.filter(v => v.data === d && v.de === o);
-    if (!vs.length) return 'sem dados';
+    if (!vs.length) return r.trechos.some(t => t.sentido === 'ida' && t.de === o && t.data === d) ? 'sem dados' : '—';
     const min = vs[0].preco;
     return `${brl(min)} (${vs.filter(v => v.preco === min).map(v => v.partida).slice(0, 4).join(', ')})`;
-  }).join(' | ') + ' |\n';
+  }).join(' | ') + ` | ${colOnibus(d)} |\n`;
 }
-md += `\n## Mais baratas no geral\n\n${cab}\n${todas.slice(0, 10).map(linha).join('\n')}\n\n`;
-md += `## Mais baratas em horário bom (saída entre 07h e 21h)\n\n${cab}\n${todas.filter(confortavel).slice(0, 10).map(linha).join('\n')}\n\n`;
+md += `\n## Avião — mais baratos no geral\n\n${cab}\n${todas.slice(0, 10).map(linha).join('\n')}\n\n`;
+md += `## Avião — mais baratos em horário bom (saída entre 07h e 21h)\n\n${cab}\n${todas.filter(confortavel).slice(0, 10).map(linha).join('\n')}\n\n`;
+
+// ônibus
+const todosOnibus = [...opcoesOnibus].sort((a, b) => a.preco - b.preco || a.data.localeCompare(b.data));
+if (onib.length) {
+  md += `## Ônibus (Buser) — mais baratos\n\n| Preço | Data | Saída → chegada | Embarque | Classe | Duração |\n|---|---|---|---|---|---|\n`;
+  md += todosOnibus.slice(0, 12).map(o => `| **${brl2(o.preco)}** | ${dia(o.data)} | ${o.partida} → ${o.chegada}${o.chegadaDia ? ' (' + o.chegadaDia + ')' : ''} | ${o.embarque} | ${o.classe}${o.escalas !== 'Direto' ? ', ' + o.escalas : ''} | ${o.duracao} |`).join('\n') + '\n\n';
+  const falhas = onib.filter(o => !o.ok).map(o => dia(o.data));
+  if (falhas.length) md += `Busca de ônibus falhou em: ${falhas.join(', ')}.\n\n`;
+}
 
 // variação por trecho em relação à coleta anterior (só se a anterior também era de ida no mesmo dia/aeroporto)
 const ant = arquivos.length > 1 ? ler(arquivos[arquivos.length - 2]) : null;
@@ -53,4 +71,12 @@ const antMelhor = ant ? idas(ant)[0] : null;
 if (atual) {
   const status = !antMelhor ? 'PRIMEIRA' : atual.preco < antMelhor.preco ? 'CAIU' : atual.preco > antMelhor.preco ? 'SUBIU' : 'IGUAL';
   console.log(`RESUMO ${status} melhor=${atual.preco} anterior=${antMelhor ? antMelhor.preco : '-'} | ${dia(atual.data)} ${atual.partida} ${atual.de}→FLN ${atual.cia}`);
+}
+
+// Resumo do ônibus
+const antOnibus = ant && ant.onibus ? ant.onibus.flatMap(o => o.opcoes).sort((a, b) => a.preco - b.preco)[0] : null;
+if (todosOnibus.length) {
+  const o = todosOnibus[0];
+  const st = !antOnibus ? 'PRIMEIRA' : o.preco < antOnibus.preco ? 'CAIU' : o.preco > antOnibus.preco ? 'SUBIU' : 'IGUAL';
+  console.log(`RESUMO_ONIBUS ${st} melhor=${o.preco} anterior=${antOnibus ? antOnibus.preco : '-'} | ${dia(o.data)} ${o.partida} ${o.embarque} ${o.classe}`);
 }

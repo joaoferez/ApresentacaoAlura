@@ -15,7 +15,7 @@ BRANCH=claude/awesome-hypatia-wbrv9t
 while :; do
   AGORA=$(TZ=America/Sao_Paulo date '+%d/%m %H:%M')
   SAIDA=$(./automacao-passagens/rodar.sh 2>&1)
-  RESUMO=$(echo "$SAIDA" | grep '^RESUMO' | tail -1)
+  RESUMO=$(echo "$SAIDA" | grep '^RESUMO' | tr '\n' ' ')
   VAZIOS=$(echo "$SAIDA" | grep -c ': 0 voos' || true)
   echo "[$AGORA] ${RESUMO:-SEM RESUMO} (trechos sem dados: $VAZIOS)"
   git add automacao-passagens/dados automacao-passagens/RELATORIO.md >/dev/null 2>&1
@@ -24,7 +24,7 @@ while :; do
 Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
 Claude-Session: https://claude.ai/code/session_01PeVuj4Zz3j2VwH1Za3judY" >/dev/null 2>&1 \
     && { git push -q origin "$BRANCH" >/dev/null 2>&1 || { sleep 5; git push -q origin "$BRANCH" >/dev/null 2>&1; }; }
-  if [[ "$RESUMO" == RESUMO\ CAIU* ]]; then echo "ALERTA: preço caiu"; exit 10; fi
+  if [[ "$RESUMO" == *" CAIU "* ]]; then echo "ALERTA: preço caiu"; exit 10; fi
   if [[ "$VAZIOS" -ge 4 ]]; then echo "ALERTA: coleta falhou em $VAZIOS trechos"; exit 11; fi
   [[ $(( $(date +%s) + INTERVALO )) -ge $FIM ]] && { echo "Fim do ciclo de monitoramento"; exit 0; }
   sleep "$INTERVALO"
