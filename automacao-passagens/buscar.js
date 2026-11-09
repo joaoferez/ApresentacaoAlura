@@ -61,7 +61,17 @@ async function buscarTrecho(page, t) {
 async function buscarOnibus(page, data) {
   await page.goto(`https://www.buser.com.br/onibus/sao-paulo-sp/florianopolis-sc?ida=${data}`, { waitUntil: 'domcontentloaded', timeout: 60000 });
   await page.waitForFunction(() => /horários? de ônibus encontrad|Nenhum|não encontramos/i.test(document.body.innerText), null, { timeout: 30000 });
-  await page.waitForTimeout(2500);
+  // espera a lista completa: N botões "Selecionar" depois de "Todos os horários" para "N horários encontrados"
+  const completa = await page.waitForFunction(() => {
+    const t = document.body.innerText;
+    const m = t.match(/(\d+) horários? de ônibus encontrad/);
+    if (!m) return true;
+    const i = t.indexOf('Todos os horários');
+    if (i < 0) return false;
+    return (t.slice(i).match(/\nSelecionar\n/g) || []).length >= parseInt(m[1], 10);
+  }, null, { timeout: 25000 }).then(() => true).catch(() => false);
+  if (!completa) throw new Error('lista de ônibus incompleta');
+  await page.waitForTimeout(1500);
   const texto = await page.evaluate(() => document.body.innerText);
   const ini = texto.indexOf('Encontramos para você');
   if (ini < 0) return [];
