@@ -5,8 +5,10 @@ const fs = require('fs');
 const path = require('path');
 
 const ORIGENS = ['GRU', 'CGH'];
-const IDAS = ['2026-12-21', '2026-12-22', '2026-12-23', '2026-12-24', '2026-12-26'];
+const IDAS = ['2026-12-21', '2026-12-22', '2026-12-23', '2026-12-24', '2026-12-25', '2026-12-26'];
 const VOLTAS = []; // só ida
+// Avião em 25/12: só voos saindo à noite (a partir das 18h). Demais dias: qualquer horário.
+const janelaVoo = (data, v) => data !== '2026-12-25' || v.partida >= '18:00';
 // Ônibus São Paulo -> Florianópolis (Buser): só saídas na noite de 25/12 (a partir das 18h)
 // ou na manhã de 26/12 (até 11h59, incluindo a madrugada).
 const DATAS_ONIBUS = ['2026-12-25', '2026-12-26'];
@@ -119,8 +121,10 @@ async function buscarOnibus(page, data) {
       if (tent) await page.waitForTimeout(5000 * tent);
       try { voos = await buscarTrecho(page, t); } catch (e) { console.error('erro', t, e.message); }
     }
-    console.error(`${t.de}->${t.para} ${t.data}: ${voos.length} voos, menor R$ ${voos.length ? Math.min(...voos.map(v => v.preco)) : '-'}`);
-    resultado.trechos.push({ ...t, voos });
+    const naJanelaVoo = voos.filter(v => janelaVoo(t.data, v));
+    // "N voos" = total encontrado (serve para detectar falha de coleta); menor preço só dentro da janela de horário
+    console.error(`${t.de}->${t.para} ${t.data}: ${voos.length} voos, ${naJanelaVoo.length} na janela, menor R$ ${naJanelaVoo.length ? Math.min(...naJanelaVoo.map(v => v.preco)) : '-'}`);
+    resultado.trechos.push({ ...t, voos: naJanelaVoo });
   }
   resultado.onibus = [];
   for (const d of DATAS_ONIBUS) {
