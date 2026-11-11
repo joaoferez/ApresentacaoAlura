@@ -1,13 +1,13 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 10/11/2026, 20:21:53 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 10/11/2026, 20:54:57 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
 | Data | Avião GRU | Avião CGH | Ônibus |
 |---|---|---|---|
 | seg 21/12 | R$ 362 (06:35, 13:40, 16:40, 17:55) | R$ 476 (07:30, 08:50, 09:35, 12:15) | — |
-| ter 22/12 | R$ 436 (16:55, 22:10) | R$ 476 (06:40, 07:30, 08:35, 08:50) | — |
+| ter 22/12 | R$ 436 (22:10) | R$ 476 (06:40, 07:30, 08:35, 08:50) | — |
 | qua 23/12 | R$ 302 (16:40) | R$ 476 (06:40, 07:30, 08:50, 09:35) | — |
 | qui 24/12 | R$ 561 (09:05, 16:55) | R$ 476 (06:40, 07:30, 08:50, 09:35) | — |
 | sex 25/12 | R$ 1.341 (22:50) | R$ 1.608 (19:00) | R$ 295,86 (19:00) |
@@ -26,7 +26,7 @@ Coleta: 10/11/2026, 20:21:53 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 362** | qua 23/12 | 17:55 → 19:15 | GRU→FLN | LATAM |
 | **R$ 436** | seg 21/12 | 09:05 → 10:25 | GRU→FLN | Gol |
 | **R$ 436** | seg 21/12 | 16:55 → 18:10 | GRU→FLN | Gol |
-| **R$ 436** | ter 22/12 | 16:55 → 18:10 | GRU→FLN | Gol |
+| **R$ 436** | ter 22/12 | 22:10 → 23:30 | GRU→FLN | Gol |
 
 ## Avião — mais baratos em horário bom (saída entre 07h e 21h)
 
@@ -40,8 +40,8 @@ Coleta: 10/11/2026, 20:21:53 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 362** | qua 23/12 | 17:55 → 19:15 | GRU→FLN | LATAM |
 | **R$ 436** | seg 21/12 | 09:05 → 10:25 | GRU→FLN | Gol |
 | **R$ 436** | seg 21/12 | 16:55 → 18:10 | GRU→FLN | Gol |
-| **R$ 436** | ter 22/12 | 16:55 → 18:10 | GRU→FLN | Gol |
 | **R$ 476** | seg 21/12 | 07:30 → 08:45 | CGH→FLN | Gol |
+| **R$ 476** | seg 21/12 | 08:50 → 10:05 | CGH→FLN | Gol |
 
 ## Ônibus (Buser) — saída 25/12 à noite (18h+) ou 26/12 de manhã (até 12h)
 
