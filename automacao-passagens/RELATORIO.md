@@ -1,12 +1,12 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 11/11/2026, 05:02:31 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 11/11/2026, 05:30:43 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
 | Data | Avião GRU | Avião CGH | Ônibus |
 |---|---|---|---|
-| seg 21/12 | R$ 362 (06:35, 13:40, 16:40, 17:55) | R$ 476 (07:30, 08:50, 09:35, 12:15) | — |
+| seg 21/12 | R$ 362 (06:35, 13:40, 16:40, 17:55) | R$ 229 (07:30, 09:35, 12:15, 12:50) | — |
 | ter 22/12 | R$ 436 (16:55, 22:10) | R$ 229 (07:30, 08:50, 09:35, 15:05) | — |
 | qua 23/12 | R$ 189 (02:55) | R$ 229 (08:50, 13:50) | — |
 | qui 24/12 | R$ 561 (16:55) | R$ 229 (08:50, 14:20) | — |
@@ -18,30 +18,30 @@ Coleta: 11/11/2026, 05:02:31 (horário de Brasília) · Avião: Google Voos, voo
 | Preço | Data | Horário | Aeroporto | Companhia |
 |---|---|---|---|---|
 | **R$ 189** | qua 23/12 | 02:55 → 04:10 | GRU→FLN | Gol |
+| **R$ 229** | seg 21/12 | 07:30 → 08:45 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 09:35 → 10:50 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 12:15 → 13:30 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 12:50 → 14:05 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 13:50 → 15:05 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 15:05 → 16:20 | CGH→FLN | Gol |
 | **R$ 229** | ter 22/12 | 07:30 → 08:45 | CGH→FLN | Gol |
 | **R$ 229** | ter 22/12 | 08:50 → 10:05 | CGH→FLN | Gol |
 | **R$ 229** | ter 22/12 | 09:35 → 10:50 | CGH→FLN | Gol |
-| **R$ 229** | ter 22/12 | 15:05 → 16:20 | CGH→FLN | Gol |
-| **R$ 229** | ter 22/12 | 17:10 → 18:25 | CGH→FLN | Gol |
-| **R$ 229** | qua 23/12 | 08:50 → 10:05 | CGH→FLN | Gol |
-| **R$ 229** | qua 23/12 | 13:50 → 15:05 | CGH→FLN | Gol |
-| **R$ 229** | qui 24/12 | 08:50 → 10:05 | CGH→FLN | Gol |
-| **R$ 229** | qui 24/12 | 14:20 → 15:35 | CGH→FLN | Gol |
 
 ## Avião — mais baratos em horário bom (saída entre 07h e 21h)
 
 | Preço | Data | Horário | Aeroporto | Companhia |
 |---|---|---|---|---|
+| **R$ 229** | seg 21/12 | 07:30 → 08:45 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 09:35 → 10:50 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 12:15 → 13:30 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 12:50 → 14:05 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 13:50 → 15:05 | CGH→FLN | Gol |
+| **R$ 229** | seg 21/12 | 15:05 → 16:20 | CGH→FLN | Gol |
 | **R$ 229** | ter 22/12 | 07:30 → 08:45 | CGH→FLN | Gol |
 | **R$ 229** | ter 22/12 | 08:50 → 10:05 | CGH→FLN | Gol |
 | **R$ 229** | ter 22/12 | 09:35 → 10:50 | CGH→FLN | Gol |
 | **R$ 229** | ter 22/12 | 15:05 → 16:20 | CGH→FLN | Gol |
-| **R$ 229** | ter 22/12 | 17:10 → 18:25 | CGH→FLN | Gol |
-| **R$ 229** | qua 23/12 | 08:50 → 10:05 | CGH→FLN | Gol |
-| **R$ 229** | qua 23/12 | 13:50 → 15:05 | CGH→FLN | Gol |
-| **R$ 229** | qui 24/12 | 08:50 → 10:05 | CGH→FLN | Gol |
-| **R$ 229** | qui 24/12 | 14:20 → 15:35 | CGH→FLN | Gol |
-| **R$ 362** | seg 21/12 | 13:40 → 14:55 | GRU→FLN | LATAM |
 
 ## Ônibus (Buser) — saída 25/12 à noite (18h+) ou 26/12 de manhã (até 12h)
 
@@ -64,7 +64,7 @@ Coleta: 11/11/2026, 05:02:31 (horário de Brasília) · Avião: Google Voos, voo
 | GRU→FLN | qui 24/12 | R$ 561 | = |
 | GRU→FLN | sex 25/12 | R$ 1.435 | = |
 | GRU→FLN | sáb 26/12 | R$ 1.483 | = |
-| CGH→FLN | seg 21/12 | R$ 476 | = |
+| CGH→FLN | seg 21/12 | R$ 229 | ⬇️ R$ 476 |
 | CGH→FLN | ter 22/12 | R$ 229 | = |
 | CGH→FLN | qua 23/12 | R$ 229 | = |
 | CGH→FLN | qui 24/12 | R$ 229 | = |
