@@ -67,16 +67,21 @@ console.log(md);
 
 // Linha de resumo para o monitoramento: melhor preço atual x coleta anterior
 const atual = todas[0];
-const antMelhor = ant ? idas(ant)[0] : null;
+// compara com a última coleta COMPLETA (evita falso "caiu" quando a anterior falhou em algum trecho)
+const anteriores = arquivos.slice(0, -1).reverse();
+const antVoo = (() => { for (const f of anteriores) { const x = ler(f); if (x.trechos.every(t => t.voos.length)) return x; } return null; })();
+const antMelhor = antVoo ? idas(antVoo)[0] : null;
 if (atual) {
   const status = !antMelhor ? 'PRIMEIRA' : atual.preco < antMelhor.preco ? 'CAIU' : atual.preco > antMelhor.preco ? 'SUBIU' : 'IGUAL';
   console.log(`RESUMO ${status} melhor=${atual.preco} anterior=${antMelhor ? antMelhor.preco : '-'} | ${dia(atual.data)} ${atual.partida} ${atual.de}→FLN ${atual.cia}`);
 }
 
 // Resumo do ônibus
-const antOnibus = ant && ant.onibus ? ant.onibus.flatMap(o => o.opcoes).sort((a, b) => a.preco - b.preco)[0] : null;
+const antOnib = (() => { for (const f of anteriores) { const x = ler(f); if (x.onibus && x.onibus.length && x.onibus.every(o => o.ok)) return x; } return null; })();
+const antOnibus = antOnib ? antOnib.onibus.flatMap(o => o.opcoes).sort((a, b) => a.preco - b.preco)[0] : null;
+const onibusCompleto = onib.every(o => o.ok);
 if (todosOnibus.length) {
   const o = todosOnibus[0];
-  const st = !antOnibus ? 'PRIMEIRA' : o.preco < antOnibus.preco ? 'CAIU' : o.preco > antOnibus.preco ? 'SUBIU' : 'IGUAL';
+  const st = !antOnibus ? 'PRIMEIRA' : !onibusCompleto ? 'INCOMPLETA' : o.preco < antOnibus.preco ? 'CAIU' : o.preco > antOnibus.preco ? 'SUBIU' : 'IGUAL';
   console.log(`RESUMO_ONIBUS ${st} melhor=${o.preco} anterior=${antOnibus ? antOnibus.preco : '-'} | ${dia(o.data)} ${o.partida} ${o.embarque} ${o.classe}`);
 }
