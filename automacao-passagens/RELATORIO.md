@@ -1,6 +1,6 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 14/11/2026, 15:41:42 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 14/11/2026, 16:11:30 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
@@ -8,7 +8,7 @@ Coleta: 14/11/2026, 15:41:42 (horário de Brasília) · Avião: Google Voos, voo
 |---|---|---|---|
 | seg 21/12 | R$ 522 (09:05, 16:55) | R$ 238 (07:30, 08:50, 09:35, 12:15) | — |
 | ter 22/12 | R$ 561 (16:55, 22:10) | R$ 238 (07:30, 08:50, 12:50, 15:05) | — |
-| qua 23/12 | R$ 207 (02:55) | R$ 238 (08:50) | — |
+| qua 23/12 | R$ 522 (02:55) | R$ 238 (08:50) | — |
 | qui 24/12 | R$ 561 (16:55) | R$ 476 (06:40, 07:30, 08:35, 08:50) | — |
 | sex 25/12 | R$ 1.341 (22:50) | R$ 1.406 (19:00) | R$ 295,86 (19:00) |
 | sáb 26/12 | R$ 1.126 (16:55, 20:30, 22:05) | R$ 1.405 (08:35) | R$ 330,60 (09:20) |
@@ -17,7 +17,6 @@ Coleta: 14/11/2026, 15:41:42 (horário de Brasília) · Avião: Google Voos, voo
 
 | Preço | Data | Horário | Aeroporto | Companhia |
 |---|---|---|---|---|
-| **R$ 207** | qua 23/12 | 02:55 → 04:10 | GRU→FLN | Gol |
 | **R$ 238** | seg 21/12 | 07:30 → 08:45 | CGH→FLN | Gol |
 | **R$ 238** | seg 21/12 | 08:50 → 10:05 | CGH→FLN | Gol |
 | **R$ 238** | seg 21/12 | 09:35 → 10:50 | CGH→FLN | Gol |
@@ -27,6 +26,7 @@ Coleta: 14/11/2026, 15:41:42 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 238** | ter 22/12 | 07:30 → 08:45 | CGH→FLN | Gol |
 | **R$ 238** | ter 22/12 | 08:50 → 10:05 | CGH→FLN | Gol |
 | **R$ 238** | ter 22/12 | 12:50 → 14:05 | CGH→FLN | Gol |
+| **R$ 238** | ter 22/12 | 15:05 → 16:20 | CGH→FLN | Gol |
 
 ## Avião — mais baratos em horário bom (saída entre 07h e 21h)
 
@@ -60,9 +60,9 @@ Coleta: 14/11/2026, 15:41:42 (horário de Brasília) · Avião: Google Voos, voo
 |---|---|---|---|
 | GRU→FLN | seg 21/12 | R$ 522 | = |
 | GRU→FLN | ter 22/12 | R$ 561 | = |
-| GRU→FLN | qua 23/12 | R$ 207 | = |
+| GRU→FLN | qua 23/12 | R$ 522 | ⬆️ R$ 207 |
 | GRU→FLN | qui 24/12 | R$ 561 | = |
-| GRU→FLN | sex 25/12 | R$ 1.341 | ⬆️ R$ 1.170 |
+| GRU→FLN | sex 25/12 | R$ 1.341 | = |
 | GRU→FLN | sáb 26/12 | R$ 1.126 | = |
 | CGH→FLN | seg 21/12 | R$ 238 | = |
 | CGH→FLN | ter 22/12 | R$ 238 | = |
