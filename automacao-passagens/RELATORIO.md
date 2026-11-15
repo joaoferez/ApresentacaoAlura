@@ -1,6 +1,6 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 15/11/2026, 19:07:28 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 15/11/2026, 19:34:49 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
@@ -10,7 +10,7 @@ Coleta: 15/11/2026, 19:07:28 (horário de Brasília) · Avião: Google Voos, voo
 | ter 22/12 | R$ 561 (16:55, 22:10) | R$ 238 (08:50) | — |
 | qua 23/12 | R$ 522 (02:55) | R$ 476 (07:30, 08:35, 08:50, 09:35) | — |
 | qui 24/12 | R$ 561 (16:55) | R$ 476 (06:40, 07:30, 08:50, 13:50) | — |
-| sex 25/12 | R$ 1.341 (22:50) | R$ 1.406 (19:00) | R$ 310,82 (19:00) |
+| sex 25/12 | R$ 1.341 (22:50) | R$ 1.406 (19:00) | R$ 295,86 (19:00) |
 | sáb 26/12 | R$ 1.126 (20:30, 22:05) | R$ 1.654 (06:45) | R$ 330,60 (09:20) |
 
 ## Avião — mais baratos no geral
@@ -47,11 +47,12 @@ Coleta: 15/11/2026, 19:07:28 (horário de Brasília) · Avião: Google Voos, voo
 
 | Preço | Data | Saída → chegada | Embarque | Classe | Duração |
 |---|---|---|---|---|---|
-| **R$ 310,82** | sex 25/12 | 19:00 → 06:16 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h16min |
+| **R$ 295,86** | sex 25/12 | 19:00 → 06:16 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h16min |
 | **R$ 318,19** | sex 25/12 | 21:00 → 08:40 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h40min |
 | **R$ 330,60** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h55min |
 | **R$ 330,60** | sáb 26/12 | 09:20 → 22:00 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 12h40min |
 | **R$ 406,98** | sex 25/12 | 22:30 → 11:40 (26/12) | Terminal Rodoviário Barra Funda | Leito, 1 Escala | 13h10min |
+| **R$ 407,60** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Leito | 11h55min |
 
 ## Variação desde a coleta anterior
 
@@ -68,6 +69,6 @@ Coleta: 15/11/2026, 19:07:28 (horário de Brasília) · Avião: Google Voos, voo
 | CGH→FLN | qua 23/12 | R$ 476 | = |
 | CGH→FLN | qui 24/12 | R$ 476 | = |
 | CGH→FLN | sex 25/12 | R$ 1.406 | = |
-| CGH→FLN | sáb 26/12 | R$ 1.654 | ⬆️ R$ 1.652 |
+| CGH→FLN | sáb 26/12 | R$ 1.654 | = |
 
 Preços do Google Voos mudam o tempo todo; confirme no site da companhia antes de comprar.
