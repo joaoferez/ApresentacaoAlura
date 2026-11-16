@@ -1,0 +1,178 @@
+{
+ "coletadoEm": "2026-11-16T20:30:23.873Z",
+ "fonte": "Google Voos",
+ "trechos": [
+  {
+   "sentido": "ida",
+   "de": "GRU",
+   "para": "FLN",
+   "data": "2026-12-21",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "GRU",
+   "para": "FLN",
+   "data": "2026-12-22",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "GRU",
+   "para": "FLN",
+   "data": "2026-12-23",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "GRU",
+   "para": "FLN",
+   "data": "2026-12-24",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "GRU",
+   "para": "FLN",
+   "data": "2026-12-25",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "GRU",
+   "para": "FLN",
+   "data": "2026-12-26",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "CGH",
+   "para": "FLN",
+   "data": "2026-12-21",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "CGH",
+   "para": "FLN",
+   "data": "2026-12-22",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "CGH",
+   "para": "FLN",
+   "data": "2026-12-23",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "CGH",
+   "para": "FLN",
+   "data": "2026-12-24",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "CGH",
+   "para": "FLN",
+   "data": "2026-12-25",
+   "voos": []
+  },
+  {
+   "sentido": "ida",
+   "de": "CGH",
+   "para": "FLN",
+   "data": "2026-12-26",
+   "voos": []
+  }
+ ],
+ "onibus": [
+  {
+   "data": "2026-12-25",
+   "fonte": "Buser",
+   "ok": true,
+   "opcoes": [
+    {
+     "data": "2026-12-25",
+     "buscaData": "2026-12-25",
+     "partida": "22:30",
+     "chegada": "11:40",
+     "chegadaDia": "26/12",
+     "embarque": "Terminal Rodoviário Barra Funda",
+     "duracao": "13h10min",
+     "classe": "Leito",
+     "escalas": "1 Escala",
+     "preco": 386.98
+    },
+    {
+     "data": "2026-12-25",
+     "buscaData": "2026-12-25",
+     "partida": "19:00",
+     "chegada": "06:16",
+     "chegadaDia": "26/12",
+     "embarque": "Terminal Rodoviário do Tietê",
+     "duracao": "11h16min",
+     "classe": "Semi-leito",
+     "escalas": "Direto",
+     "preco": 295.86
+    },
+    {
+     "data": "2026-12-25",
+     "buscaData": "2026-12-25",
+     "partida": "21:00",
+     "chegada": "08:40",
+     "chegadaDia": "26/12",
+     "embarque": "Terminal Rodoviário do Tietê",
+     "duracao": "11h40min",
+     "classe": "Semi-leito",
+     "escalas": "Direto",
+     "preco": 318.19
+    },
+    {
+     "data": "2026-12-25",
+     "buscaData": "2026-12-25",
+     "partida": "22:15",
+     "chegada": "10:10",
+     "chegadaDia": "26/12",
+     "embarque": "Terminal Rodoviário do Tietê",
+     "duracao": "11h55min",
+     "classe": "Semi-leito",
+     "escalas": "Direto",
+     "preco": 367.85
+    },
+    {
+     "data": "2026-12-25",
+     "buscaData": "2026-12-25",
+     "partida": "22:15",
+     "chegada": "10:10",
+     "chegadaDia": "26/12",
+     "embarque": "Terminal Rodoviário do Tietê",
+     "duracao": "11h55min",
+     "classe": "Leito",
+     "escalas": "Direto",
+     "preco": 413.6
+    }
+   ]
+  },
+  {
+   "data": "2026-12-26",
+   "fonte": "Buser",
+   "ok": true,
+   "opcoes": [
+    {
+     "data": "2026-12-26",
+     "buscaData": "2026-12-26",
+     "partida": "09:20",
+     "chegada": "22:00",
+     "chegadaDia": "26/12",
+     "embarque": "Terminal Rodoviário do Tietê",
+     "duracao": "12h40min",
+     "classe": "Semi-leito",
+     "escalas": "Direto",
+     "preco": 330.6
+    }
+   ]
+  }
+ ]
+}
