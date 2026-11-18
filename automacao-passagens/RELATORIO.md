@@ -1,17 +1,17 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 18/11/2026, 10:38:57 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 18/11/2026, 10:55:43 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
 | Data | Avião GRU | Avião CGH | Ônibus |
 |---|---|---|---|
-| seg 21/12 | R$ 522 (16:55) | sem dados | — |
+| seg 21/12 | sem dados | sem dados | — |
 | ter 22/12 | R$ 561 (16:55, 22:10) | R$ 238 (07:30, 08:50, 12:50, 13:50) | — |
-| qua 23/12 | R$ 302 (06:35) | R$ 476 (07:30, 08:50, 09:35, 12:15) | — |
+| qua 23/12 | R$ 302 (06:35) | sem dados | — |
 | qui 24/12 | R$ 561 (16:55) | sem dados | — |
 | sex 25/12 | R$ 1.341 (22:50) | sem dados | R$ 295,86 (19:00) |
-| sáb 26/12 | R$ 1.341 (20:30) | sem dados | R$ 330,60 (09:20) |
+| sáb 26/12 | R$ 1.341 (20:30) | R$ 1.210 (13:50) | R$ 330,60 (09:20) |
 
 ## Avião — mais baratos no geral
 
@@ -41,7 +41,7 @@ Coleta: 18/11/2026, 10:38:57 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 238** | ter 22/12 | 17:10 → 18:25 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 09:35 → 10:50 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 19:40 → 20:55 | CGH→FLN | Gol |
-| **R$ 476** | qua 23/12 | 07:30 → 08:45 | CGH→FLN | Gol |
+| **R$ 561** | ter 22/12 | 16:55 → 18:10 | GRU→FLN | Gol |
 
 ## Ônibus (Buser) — saída 25/12 à noite (18h+) ou 26/12 de manhã (até 12h)
 
@@ -58,7 +58,7 @@ Coleta: 18/11/2026, 10:38:57 (horário de Brasília) · Avião: Google Voos, voo
 
 | Trecho | Data | Agora | Antes |
 |---|---|---|---|
-| GRU→FLN | seg 21/12 | R$ 522 | = |
+| GRU→FLN | seg 21/12 | sem dados |  |
 | GRU→FLN | ter 22/12 | R$ 561 | = |
 | GRU→FLN | qua 23/12 | R$ 302 | = |
 | GRU→FLN | qui 24/12 | R$ 561 | = |
@@ -66,9 +66,9 @@ Coleta: 18/11/2026, 10:38:57 (horário de Brasília) · Avião: Google Voos, voo
 | GRU→FLN | sáb 26/12 | R$ 1.341 | = |
 | CGH→FLN | seg 21/12 | sem dados |  |
 | CGH→FLN | ter 22/12 | R$ 238 | = |
-| CGH→FLN | qua 23/12 | R$ 476 | = |
+| CGH→FLN | qua 23/12 | sem dados |  |
 | CGH→FLN | qui 24/12 | sem dados |  |
 | CGH→FLN | sex 25/12 | sem dados |  |
-| CGH→FLN | sáb 26/12 | sem dados |  |
+| CGH→FLN | sáb 26/12 | R$ 1.210 |  |
 
 Preços do Google Voos mudam o tempo todo; confirme no site da companhia antes de comprar.
