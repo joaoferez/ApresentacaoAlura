@@ -1,5 +1,5 @@
 {
- "coletadoEm": "2026-11-18T10:00:02.189Z",
+ "coletadoEm": "2026-11-18T10:00:58.884Z",
  "fonte": "Google Voos",
  "trechos": [
   {
@@ -1655,18 +1655,6 @@
     {
      "data": "2026-12-25",
      "buscaData": "2026-12-25",
-     "partida": "22:30",
-     "chegada": "11:40",
-     "chegadaDia": "26/12",
-     "embarque": "Terminal Rodoviário Barra Funda",
-     "duracao": "13h10min",
-     "classe": "Leito",
-     "escalas": "1 Escala",
-     "preco": 329.98
-    },
-    {
-     "data": "2026-12-25",
-     "buscaData": "2026-12-25",
      "partida": "19:00",
      "chegada": "06:16",
      "chegadaDia": "26/12",
@@ -1711,6 +1699,18 @@
      "classe": "Leito",
      "escalas": "Direto",
      "preco": 413.6
+    },
+    {
+     "data": "2026-12-25",
+     "buscaData": "2026-12-25",
+     "partida": "22:30",
+     "chegada": "11:40",
+     "chegadaDia": "26/12",
+     "embarque": "Terminal Rodoviário Barra Funda",
+     "duracao": "13h10min",
+     "classe": "Leito",
+     "escalas": "1 Escala",
+     "preco": 329.98
     }
    ]
   },
