@@ -14,7 +14,7 @@ BRANCH=claude/awesome-hypatia-wbrv9t
 
 while :; do
   AGORA=$(TZ=America/Sao_Paulo date '+%d/%m %H:%M')
-  SAIDA=$(./automacao-passagens/rodar.sh 2>&1)
+  SAIDA=$(timeout 900 ./automacao-passagens/rodar.sh 2>&1)  # 15 min no máximo: evita coleta travada
   RESUMO=$(echo "$SAIDA" | grep '^RESUMO' | tr '\n' ' ')
   VAZIOS=$(echo "$SAIDA" | grep -c ': 0 voos' || true)
   echo "[$AGORA] ${RESUMO:-SEM RESUMO} (trechos sem dados: $VAZIOS)"
