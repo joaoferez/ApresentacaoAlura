@@ -1,6 +1,6 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 19/11/2026, 15:37:49 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 19/11/2026, 16:00:09 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
@@ -10,7 +10,7 @@ Coleta: 19/11/2026, 15:37:49 (horário de Brasília) · Avião: Google Voos, voo
 | ter 22/12 | R$ 407 (17:55) | R$ 476 (07:30, 08:35, 08:50, 09:35) | — |
 | qua 23/12 | R$ 407 (06:35) | R$ 476 (06:40, 07:30, 08:35, 08:50) | — |
 | qui 24/12 | R$ 407 (16:40) | R$ 476 (07:30, 11:40, 14:20, 17:40) | — |
-| sex 25/12 | R$ 1.547 (22:25) | R$ 1.241 (19:00) | falhou |
+| sex 25/12 | R$ 1.435 (22:25) | R$ 1.241 (19:00) | R$ 315,22 (19:00) |
 | sáb 26/12 | R$ 1.437 (16:20) | R$ 1.406 (07:25) | R$ 352,83 (09:20) |
 
 ## Avião — mais baratos no geral
@@ -47,9 +47,12 @@ Coleta: 19/11/2026, 15:37:49 (horário de Brasília) · Avião: Google Voos, voo
 
 | Preço | Data | Saída → chegada | Embarque | Classe | Duração |
 |---|---|---|---|---|---|
+| **R$ 315,22** | sex 25/12 | 19:00 → 06:16 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h16min |
+| **R$ 339,55** | sex 25/12 | 21:00 → 08:40 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h40min |
 | **R$ 352,83** | sáb 26/12 | 09:20 → 22:00 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 12h40min |
-
-Busca de ônibus falhou em: sex 25/12.
+| **R$ 360,98** | sex 25/12 | 22:30 → 11:40 (26/12) | Terminal Rodoviário Barra Funda | Leito, 1 Escala | 13h10min |
+| **R$ 392,66** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h55min |
+| **R$ 441,59** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Leito | 11h55min |
 
 ## Variação desde a coleta anterior
 
@@ -59,7 +62,7 @@ Busca de ônibus falhou em: sex 25/12.
 | GRU→FLN | ter 22/12 | R$ 407 | = |
 | GRU→FLN | qua 23/12 | R$ 407 | = |
 | GRU→FLN | qui 24/12 | R$ 407 | = |
-| GRU→FLN | sex 25/12 | R$ 1.547 | = |
+| GRU→FLN | sex 25/12 | R$ 1.435 | ⬇️ R$ 1.547 |
 | GRU→FLN | sáb 26/12 | R$ 1.437 | = |
 | CGH→FLN | seg 21/12 | R$ 476 | = |
 | CGH→FLN | ter 22/12 | R$ 476 | = |
