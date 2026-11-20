@@ -1,25 +1,25 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 20/11/2026, 02:10:02 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 20/11/2026, 03:11:17 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
 | Data | Avião GRU | Avião CGH | Ônibus |
 |---|---|---|---|
-| seg 21/12 | R$ 407 (16:40, 22:25) | R$ 476 (06:40, 07:30, 08:50, 09:35) | — |
+| seg 21/12 | R$ 407 (22:25) | R$ 476 (06:40, 07:30, 08:50, 09:35) | — |
 | ter 22/12 | R$ 561 (16:55, 17:55) | R$ 476 (07:30, 08:35, 08:50, 09:35) | — |
 | qua 23/12 | R$ 407 (06:35) | R$ 476 (06:40, 07:30, 08:35, 08:50) | — |
-| qui 24/12 | sem dados | R$ 476 (07:30, 11:40, 14:20, 17:40) | — |
-| sex 25/12 | R$ 1.547 (22:25) | R$ 1.241 (19:00) | R$ 315,22 (19:00) |
+| qui 24/12 | R$ 407 (16:40) | R$ 476 (07:30, 11:40, 14:20, 17:40) | — |
+| sex 25/12 | R$ 1.435 (22:25) | R$ 1.241 (19:00) | R$ 315,22 (19:00) |
 | sáb 26/12 | R$ 1.438 (16:20) | R$ 1.406 (07:25) | R$ 352,83 (09:20) |
 
 ## Avião — mais baratos no geral
 
 | Preço | Data | Horário | Aeroporto | Companhia |
 |---|---|---|---|---|
-| **R$ 407** | seg 21/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
 | **R$ 407** | seg 21/12 | 22:25 → 23:40 | GRU→FLN | LATAM |
 | **R$ 407** | qua 23/12 | 06:35 → 07:55 | GRU→FLN | LATAM |
+| **R$ 407** | qui 24/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
 | **R$ 466** | seg 21/12 | 16:55 → 18:10 | GRU→FLN | Gol |
 | **R$ 466** | qua 23/12 | 02:55 → 04:10 | GRU→FLN | Gol |
 | **R$ 476** | seg 21/12 | 06:40 → 07:50 | CGH→FLN | LATAM |
@@ -32,7 +32,7 @@ Coleta: 20/11/2026, 02:10:02 (horário de Brasília) · Avião: Google Voos, voo
 
 | Preço | Data | Horário | Aeroporto | Companhia |
 |---|---|---|---|---|
-| **R$ 407** | seg 21/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
+| **R$ 407** | qui 24/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
 | **R$ 466** | seg 21/12 | 16:55 → 18:10 | GRU→FLN | Gol |
 | **R$ 476** | seg 21/12 | 07:30 → 08:45 | CGH→FLN | Gol |
 | **R$ 476** | seg 21/12 | 08:50 → 10:05 | CGH→FLN | Gol |
@@ -61,8 +61,8 @@ Coleta: 20/11/2026, 02:10:02 (horário de Brasília) · Avião: Google Voos, voo
 | GRU→FLN | seg 21/12 | R$ 407 | = |
 | GRU→FLN | ter 22/12 | R$ 561 | = |
 | GRU→FLN | qua 23/12 | R$ 407 | = |
-| GRU→FLN | qui 24/12 | sem dados |  |
-| GRU→FLN | sex 25/12 | R$ 1.547 | = |
+| GRU→FLN | qui 24/12 | R$ 407 |  |
+| GRU→FLN | sex 25/12 | R$ 1.435 | ⬇️ R$ 1.547 |
 | GRU→FLN | sáb 26/12 | R$ 1.438 | = |
 | CGH→FLN | seg 21/12 | R$ 476 | = |
 | CGH→FLN | ter 22/12 | R$ 476 | = |
