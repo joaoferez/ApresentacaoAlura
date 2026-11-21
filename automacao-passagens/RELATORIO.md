@@ -1,6 +1,6 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 21/11/2026, 00:28:52 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 21/11/2026, 00:49:41 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
@@ -50,7 +50,7 @@ Coleta: 21/11/2026, 00:28:52 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 315,22** | sex 25/12 | 19:00 → 06:16 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h16min |
 | **R$ 339,55** | sex 25/12 | 21:00 → 08:40 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h40min |
 | **R$ 352,83** | sáb 26/12 | 09:20 → 22:00 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 12h40min |
-| **R$ 360,98** | sex 25/12 | 22:30 → 11:40 (26/12) | Terminal Rodoviário Barra Funda | Leito, 1 Escala | 13h10min |
+| **R$ 367,98** | sex 25/12 | 22:30 → 11:40 (26/12) | Terminal Rodoviário Barra Funda | Leito, 1 Escala | 13h10min |
 | **R$ 392,66** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h55min |
 | **R$ 441,59** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Leito | 11h55min |
 
@@ -62,13 +62,13 @@ Coleta: 21/11/2026, 00:28:52 (horário de Brasília) · Avião: Google Voos, voo
 | GRU→FLN | ter 22/12 | R$ 561 | = |
 | GRU→FLN | qua 23/12 | R$ 407 | = |
 | GRU→FLN | qui 24/12 | R$ 561 | = |
-| GRU→FLN | sex 25/12 | R$ 1.435 | ⬇️ R$ 1.547 |
+| GRU→FLN | sex 25/12 | R$ 1.435 | = |
 | GRU→FLN | sáb 26/12 | R$ 1.435 | = |
 | CGH→FLN | seg 21/12 | R$ 476 | = |
 | CGH→FLN | ter 22/12 | R$ 476 | = |
 | CGH→FLN | qua 23/12 | R$ 476 | = |
 | CGH→FLN | qui 24/12 | R$ 476 | = |
-| CGH→FLN | sex 25/12 | R$ 1.406 | ⬇️ R$ 1.513 |
+| CGH→FLN | sex 25/12 | R$ 1.406 | = |
 | CGH→FLN | sáb 26/12 | R$ 1.406 | = |
 
 Preços do Google Voos mudam o tempo todo; confirme no site da companhia antes de comprar.
