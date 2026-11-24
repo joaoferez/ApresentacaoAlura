@@ -1,13 +1,13 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 24/11/2026, 11:11:55 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 24/11/2026, 11:33:47 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
 | Data | Avião GRU | Avião CGH | Ônibus |
 |---|---|---|---|
 | seg 21/12 | R$ 561 (13:40, 16:55, 17:45) | R$ 824 (06:40, 07:30, 08:35, 08:50) | — |
-| ter 22/12 | R$ 561 (17:55) | R$ 476 (06:40, 07:30, 08:50, 11:40) | — |
+| ter 22/12 | R$ 561 (17:55) | R$ 476 (06:40, 07:30, 08:50, 12:50) | — |
 | qua 23/12 | R$ 522 (02:55) | R$ 476 (06:40) | — |
 | qui 24/12 | R$ 561 (17:55) | R$ 476 (17:40) | — |
 | sex 25/12 | R$ 1.984 (22:25) | R$ 1.406 (19:00) | R$ 315,22 (19:00) |
@@ -20,13 +20,13 @@ Coleta: 24/11/2026, 11:11:55 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 476** | ter 22/12 | 06:40 → 07:50 | CGH→FLN | LATAM |
 | **R$ 476** | ter 22/12 | 07:30 → 08:45 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 08:50 → 10:05 | CGH→FLN | Gol |
-| **R$ 476** | ter 22/12 | 11:40 → 12:50 | CGH→FLN | LATAM |
 | **R$ 476** | ter 22/12 | 12:50 → 14:05 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 13:50 → 15:05 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 14:20 → 15:35 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 15:05 → 16:20 | CGH→FLN | Gol |
-| **R$ 476** | ter 22/12 | 17:10 → 18:25 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 19:40 → 20:55 | CGH→FLN | Gol |
+| **R$ 476** | qua 23/12 | 06:40 → 07:50 | CGH→FLN | LATAM |
+| **R$ 476** | qui 24/12 | 17:40 → 18:50 | CGH→FLN | LATAM |
 
 ## Avião — mais baratos em horário bom (saída entre 07h e 21h)
 
@@ -34,14 +34,14 @@ Coleta: 24/11/2026, 11:11:55 (horário de Brasília) · Avião: Google Voos, voo
 |---|---|---|---|---|
 | **R$ 476** | ter 22/12 | 07:30 → 08:45 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 08:50 → 10:05 | CGH→FLN | Gol |
-| **R$ 476** | ter 22/12 | 11:40 → 12:50 | CGH→FLN | LATAM |
 | **R$ 476** | ter 22/12 | 12:50 → 14:05 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 13:50 → 15:05 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 14:20 → 15:35 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 15:05 → 16:20 | CGH→FLN | Gol |
-| **R$ 476** | ter 22/12 | 17:10 → 18:25 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 19:40 → 20:55 | CGH→FLN | Gol |
 | **R$ 476** | qui 24/12 | 17:40 → 18:50 | CGH→FLN | LATAM |
+| **R$ 561** | seg 21/12 | 13:40 → 14:55 | GRU→FLN | LATAM |
+| **R$ 561** | seg 21/12 | 16:55 → 18:10 | GRU→FLN | Gol |
 
 ## Ônibus (Buser) — saída 25/12 à noite (18h+) ou 26/12 de manhã (até 12h)
 
@@ -50,15 +50,15 @@ Coleta: 24/11/2026, 11:11:55 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 315,22** | sex 25/12 | 19:00 → 06:16 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h16min |
 | **R$ 339,55** | sex 25/12 | 21:00 → 08:40 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h40min |
 | **R$ 352,83** | sáb 26/12 | 09:20 → 22:00 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 12h40min |
+| **R$ 372,98** | sex 25/12 | 22:30 → 11:40 (26/12) | Terminal Rodoviário Barra Funda | Leito, 1 Escala | 13h10min |
 | **R$ 392,66** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h55min |
-| **R$ 457,98** | sex 25/12 | 22:30 → 11:40 (26/12) | Terminal Rodoviário Barra Funda | Leito, 1 Escala | 13h10min |
 
 ## Variação desde a coleta anterior
 
 | Trecho | Data | Agora | Antes |
 |---|---|---|---|
 | GRU→FLN | seg 21/12 | R$ 561 | = |
-| GRU→FLN | ter 22/12 | R$ 561 | ⬇️ R$ 741 |
+| GRU→FLN | ter 22/12 | R$ 561 | = |
 | GRU→FLN | qua 23/12 | R$ 522 | = |
 | GRU→FLN | qui 24/12 | R$ 561 | = |
 | GRU→FLN | sex 25/12 | R$ 1.984 | = |
