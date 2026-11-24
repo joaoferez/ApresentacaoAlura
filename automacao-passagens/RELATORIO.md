@@ -1,12 +1,12 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 24/11/2026, 06:53:10 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 24/11/2026, 07:14:50 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
 | Data | Avião GRU | Avião CGH | Ônibus |
 |---|---|---|---|
-| seg 21/12 | R$ 561 (13:40, 16:55, 17:45) | R$ 824 (06:40, 08:35, 08:50, 11:40) | — |
+| seg 21/12 | R$ 561 (13:40, 16:55, 17:45) | R$ 824 (06:40, 07:30, 08:35, 08:50) | — |
 | ter 22/12 | R$ 741 (06:35, 09:15, 17:55) | R$ 476 (06:40, 07:30, 08:50, 11:40) | — |
 | qua 23/12 | R$ 522 (02:55) | R$ 476 (06:40) | — |
 | qui 24/12 | R$ 561 (17:55) | R$ 476 (06:40, 17:40) | — |
@@ -25,8 +25,8 @@ Coleta: 24/11/2026, 06:53:10 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 476** | ter 22/12 | 13:50 → 15:05 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 14:20 → 15:35 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 15:05 → 16:20 | CGH→FLN | Gol |
+| **R$ 476** | ter 22/12 | 17:10 → 18:25 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 19:40 → 20:55 | CGH→FLN | Gol |
-| **R$ 476** | qua 23/12 | 06:40 → 07:50 | CGH→FLN | LATAM |
 
 ## Avião — mais baratos em horário bom (saída entre 07h e 21h)
 
@@ -39,9 +39,9 @@ Coleta: 24/11/2026, 06:53:10 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 476** | ter 22/12 | 13:50 → 15:05 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 14:20 → 15:35 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 15:05 → 16:20 | CGH→FLN | Gol |
+| **R$ 476** | ter 22/12 | 17:10 → 18:25 | CGH→FLN | Gol |
 | **R$ 476** | ter 22/12 | 19:40 → 20:55 | CGH→FLN | Gol |
 | **R$ 476** | qui 24/12 | 17:40 → 18:50 | CGH→FLN | LATAM |
-| **R$ 561** | seg 21/12 | 13:40 → 14:55 | GRU→FLN | LATAM |
 
 ## Ônibus (Buser) — saída 25/12 à noite (18h+) ou 26/12 de manhã (até 12h)
 
