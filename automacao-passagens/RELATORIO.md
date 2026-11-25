@@ -1,12 +1,12 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 25/11/2026, 10:35:02 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 25/11/2026, 10:58:23 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
 | Data | Avião GRU | Avião CGH | Ônibus |
 |---|---|---|---|
-| seg 21/12 | R$ 561 (13:40, 16:55, 17:45) | R$ 824 (06:40, 08:35, 08:50, 12:50) | — |
+| seg 21/12 | R$ 561 (16:55, 17:45) | R$ 824 (06:40, 08:35, 08:50, 12:50) | — |
 | ter 22/12 | R$ 561 (17:55) | R$ 824 (06:40, 07:30, 08:35, 08:50) | — |
 | qua 23/12 | R$ 522 (02:55) | R$ 704 (06:40) | — |
 | qui 24/12 | R$ 561 (17:55) | R$ 476 (17:40) | — |
@@ -19,27 +19,27 @@ Coleta: 25/11/2026, 10:35:02 (horário de Brasília) · Avião: Google Voos, voo
 |---|---|---|---|---|
 | **R$ 476** | qui 24/12 | 17:40 → 18:50 | CGH→FLN | LATAM |
 | **R$ 522** | qua 23/12 | 02:55 → 04:10 | GRU→FLN | Gol |
-| **R$ 561** | seg 21/12 | 13:40 → 14:55 | GRU→FLN | LATAM |
 | **R$ 561** | seg 21/12 | 16:55 → 18:10 | GRU→FLN | Gol |
 | **R$ 561** | seg 21/12 | 17:45 → 19:05 | GRU→FLN | LATAM |
 | **R$ 561** | ter 22/12 | 17:55 → 19:15 | GRU→FLN | LATAM |
 | **R$ 561** | qua 23/12 | 06:35 → 07:55 | GRU→FLN | LATAM |
 | **R$ 561** | qui 24/12 | 17:55 → 19:15 | GRU→FLN | LATAM |
 | **R$ 582** | qui 24/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
-| **R$ 649** | qui 24/12 | 06:40 → 07:50 | CGH→FLN | LATAM |
+| **R$ 653** | qui 24/12 | 06:40 → 07:50 | CGH→FLN | LATAM |
+| **R$ 695** | qui 24/12 | 14:30 → 15:40 | CGH→FLN | LATAM |
 
 ## Avião — mais baratos em horário bom (saída entre 07h e 21h)
 
 | Preço | Data | Horário | Aeroporto | Companhia |
 |---|---|---|---|---|
 | **R$ 476** | qui 24/12 | 17:40 → 18:50 | CGH→FLN | LATAM |
-| **R$ 561** | seg 21/12 | 13:40 → 14:55 | GRU→FLN | LATAM |
 | **R$ 561** | seg 21/12 | 16:55 → 18:10 | GRU→FLN | Gol |
 | **R$ 561** | seg 21/12 | 17:45 → 19:05 | GRU→FLN | LATAM |
 | **R$ 561** | ter 22/12 | 17:55 → 19:15 | GRU→FLN | LATAM |
 | **R$ 561** | qui 24/12 | 17:55 → 19:15 | GRU→FLN | LATAM |
 | **R$ 582** | qui 24/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
-| **R$ 649** | qui 24/12 | 14:30 → 15:40 | CGH→FLN | LATAM |
+| **R$ 695** | qui 24/12 | 14:30 → 15:40 | CGH→FLN | LATAM |
+| **R$ 741** | seg 21/12 | 13:40 → 14:55 | GRU→FLN | LATAM |
 | **R$ 741** | seg 21/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
 | **R$ 741** | ter 22/12 | 09:15 → 10:30 | GRU→FLN | LATAM |
 
