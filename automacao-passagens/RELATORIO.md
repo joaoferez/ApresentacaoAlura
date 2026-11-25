@@ -1,17 +1,17 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 25/11/2026, 00:32:57 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 25/11/2026, 00:53:48 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
 | Data | Avião GRU | Avião CGH | Ônibus |
 |---|---|---|---|
-| seg 21/12 | R$ 561 (13:40, 16:55, 17:45) | R$ 824 (06:40, 08:35, 08:50, 12:50) | — |
+| seg 21/12 | R$ 561 (13:40, 16:55, 17:45) | R$ 824 (06:40, 07:30, 08:35, 08:50) | — |
 | ter 22/12 | R$ 561 (17:55) | R$ 824 (06:40, 07:30, 08:35, 08:50) | — |
 | qua 23/12 | R$ 522 (02:55) | R$ 509 (06:40) | — |
 | qui 24/12 | R$ 561 (17:55) | R$ 476 (17:40) | — |
 | sex 25/12 | R$ 1.984 (22:25) | R$ 1.406 (19:00) | R$ 315,22 (19:00) |
-| sáb 26/12 | R$ 1.437 (13:40) | R$ 1.669 (11:15) | R$ 352,83 (09:20) |
+| sáb 26/12 | R$ 1.341 (22:05) | R$ 1.669 (11:15) | R$ 352,83 (09:20) |
 
 ## Avião — mais baratos no geral
 
@@ -39,9 +39,9 @@ Coleta: 25/11/2026, 00:32:57 (horário de Brasília) · Avião: Google Voos, voo
 | **R$ 561** | ter 22/12 | 17:55 → 19:15 | GRU→FLN | LATAM |
 | **R$ 561** | qui 24/12 | 17:55 → 19:15 | GRU→FLN | LATAM |
 | **R$ 582** | qui 24/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
-| **R$ 649** | qui 24/12 | 14:30 → 15:40 | CGH→FLN | LATAM |
+| **R$ 695** | qui 24/12 | 14:30 → 15:40 | CGH→FLN | LATAM |
 | **R$ 741** | seg 21/12 | 16:40 → 17:55 | GRU→FLN | LATAM |
-| **R$ 741** | ter 22/12 | 13:40 → 14:55 | GRU→FLN | LATAM |
+| **R$ 741** | ter 22/12 | 09:15 → 10:30 | GRU→FLN | LATAM |
 
 ## Ônibus (Buser) — saída 25/12 à noite (18h+) ou 26/12 de manhã (até 12h)
 
@@ -62,7 +62,7 @@ Coleta: 25/11/2026, 00:32:57 (horário de Brasília) · Avião: Google Voos, voo
 | GRU→FLN | qua 23/12 | R$ 522 | = |
 | GRU→FLN | qui 24/12 | R$ 561 | = |
 | GRU→FLN | sex 25/12 | R$ 1.984 | = |
-| GRU→FLN | sáb 26/12 | R$ 1.437 | ⬆️ R$ 1.341 |
+| GRU→FLN | sáb 26/12 | R$ 1.341 | ⬇️ R$ 1.437 |
 | CGH→FLN | seg 21/12 | R$ 824 | = |
 | CGH→FLN | ter 22/12 | R$ 824 | = |
 | CGH→FLN | qua 23/12 | R$ 509 | = |
