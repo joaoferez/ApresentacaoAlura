@@ -1,6 +1,6 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 26/11/2026, 12:03:27 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 26/11/2026, 12:24:25 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
@@ -8,10 +8,10 @@ Coleta: 26/11/2026, 12:03:27 (horário de Brasília) · Avião: Google Voos, voo
 |---|---|---|---|
 | seg 21/12 | R$ 561 (22:00) | R$ 643 (12:50, 13:50, 15:05, 19:40) | — |
 | ter 22/12 | R$ 561 (06:35, 17:55) | R$ 643 (07:30, 08:50, 13:50, 14:20) | — |
-| qua 23/12 | R$ 561 (02:55) | R$ 824 (07:30) | — |
-| qui 24/12 | R$ 561 (16:55, 17:55) | R$ 654 (06:40) | — |
+| qua 23/12 | R$ 561 (02:55) | R$ 824 (07:30, 17:45) | — |
+| qui 24/12 | R$ 561 (16:55, 17:55) | R$ 649 (06:40) | — |
 | sex 25/12 | R$ 1.984 (22:25) | R$ 1.406 (19:00, 19:40) | R$ 306,77 (21:00) |
-| sáb 26/12 | R$ 1.441 (13:40) | R$ 1.406 (17:35) | R$ 313,48 (09:20) |
+| sáb 26/12 | R$ 1.435 (13:40) | R$ 1.406 (17:35) | R$ 313,48 (09:20) |
 
 ## Avião — mais baratos no geral
 
@@ -62,11 +62,11 @@ Coleta: 26/11/2026, 12:03:27 (horário de Brasília) · Avião: Google Voos, voo
 | GRU→FLN | qua 23/12 | R$ 561 | = |
 | GRU→FLN | qui 24/12 | R$ 561 | = |
 | GRU→FLN | sex 25/12 | R$ 1.984 | = |
-| GRU→FLN | sáb 26/12 | R$ 1.441 | ⬆️ R$ 1.435 |
+| GRU→FLN | sáb 26/12 | R$ 1.435 | ⬇️ R$ 1.441 |
 | CGH→FLN | seg 21/12 | R$ 643 | = |
 | CGH→FLN | ter 22/12 | R$ 643 | = |
 | CGH→FLN | qua 23/12 | R$ 824 | = |
-| CGH→FLN | qui 24/12 | R$ 654 | = |
+| CGH→FLN | qui 24/12 | R$ 649 | ⬇️ R$ 654 |
 | CGH→FLN | sex 25/12 | R$ 1.406 | = |
 | CGH→FLN | sáb 26/12 | R$ 1.406 | = |
 
