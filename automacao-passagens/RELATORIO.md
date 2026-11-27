@@ -1,6 +1,6 @@
 # Só ida São Paulo → Florianópolis — avião e ônibus, 21 a 26/12/2026
 
-Coleta: 27/11/2026, 09:45:53 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
+Coleta: 27/11/2026, 10:07:19 (horário de Brasília) · Avião: Google Voos, voo direto, tarifa econômica básica (sem bagagem despachada). Ônibus: Buser (Tietê/Barra Funda → Rodoviária de Florianópolis). 1 adulto.
 
 ## Menor preço por dia
 
@@ -8,9 +8,9 @@ Coleta: 27/11/2026, 09:45:53 (horário de Brasília) · Avião: Google Voos, voo
 |---|---|---|---|
 | seg 21/12 | R$ 561 (17:45) | R$ 339 (12:50) | — |
 | ter 22/12 | R$ 561 (06:35, 17:55) | R$ 389 (07:30, 08:50, 09:35, 12:50) | — |
-| qua 23/12 | R$ 561 (06:35) | R$ 389 (07:30, 08:50, 09:35, 12:50) | — |
+| qua 23/12 | R$ 561 (06:35) | R$ 389 (07:30, 08:50, 15:05, 19:40) | — |
 | qui 24/12 | R$ 561 (16:40, 17:55) | R$ 389 (07:30, 12:50, 13:50, 14:20) | — |
-| sex 25/12 | R$ 1.984 (22:25) | R$ 1.376 (19:40) | R$ 313,48 (21:00) |
+| sex 25/12 | R$ 1.984 (22:25) | R$ 1.376 (19:40) | falhou |
 | sáb 26/12 | R$ 1.491 (06:35, 16:20, 18:00) | R$ 1.406 (17:55) | R$ 313,48 (09:20) |
 
 ## Avião — mais baratos no geral
@@ -47,11 +47,9 @@ Coleta: 27/11/2026, 09:45:53 (horário de Brasília) · Avião: Google Voos, voo
 
 | Preço | Data | Saída → chegada | Embarque | Classe | Duração |
 |---|---|---|---|---|---|
-| **R$ 313,48** | sex 25/12 | 21:00 → 08:40 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h40min |
 | **R$ 313,48** | sáb 26/12 | 09:20 → 22:00 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 12h40min |
-| **R$ 353,73** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Semi-leito | 11h55min |
-| **R$ 441,59** | sex 25/12 | 22:15 → 10:10 (26/12) | Terminal Rodoviário do Tietê | Leito | 11h55min |
-| **R$ 457,98** | sex 25/12 | 22:30 → 11:40 (26/12) | Terminal Rodoviário Barra Funda | Leito, 1 Escala | 13h10min |
+
+Busca de ônibus falhou em: sex 25/12.
 
 ## Variação desde a coleta anterior
 
